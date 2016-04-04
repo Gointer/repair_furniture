@@ -37,3 +37,43 @@ nav {
     -o-transition: 0.34s;
     transition: 0.34s;
 }
+
+ul {
+    list-style-type: none;
+}
+
+#feature-list > li > p {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0px;
+    text-align: left;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li {
+    display: list-item;
+}
+
+#feature-list > li {
+    list-style: disc;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+#feature-list > li:nth-child(1) {
+    color: #ee6e73;
+}
+
+li {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0px;
+    text-align: left;
+}
